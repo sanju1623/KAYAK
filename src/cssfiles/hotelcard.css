@@ -1,0 +1,102 @@
+.hotel-card{
+	border: 1px solid lightgrey;
+	background: white;
+	margin-right: 0px;
+	margin-left: 0px;
+
+
+}
+.hotel-card:not(last-child){
+	margin-bottom: 10px;
+}
+.cardTitle{
+
+	font-size: 15px;
+	text-align: left;
+
+
+
+
+}
+
+.picture{
+
+	width: 100%;
+
+	height: 100%;
+}
+#green{
+	color: green;
+}
+#review{}
+
+.secondrow{
+	margin-top: 44px;
+	font-size: 14px;
+}
+
+
+
+.thirdrow{
+	font-size: smaller;
+	font-weight: bold;
+	margin-top: 23px;
+
+}
+
+.thirdrow .border-proxy {
+	border-top: 1px solid lightgrey;
+	margin-bottom: 5px;
+}
+
+.thirdrow div:hover{
+	color: rgb(255, 105, 15);
+	cursor: pointer;
+}
+.middle{
+	border-right: 1px solid lightgrey;
+	text-align: left;
+}
+.viewdealbutton{
+	color: rgb(255, 255, 255);
+	background-color: rgb(255, 105, 15);
+
+	margin-top: 54px;
+	padding: 5px 20px;
+	border: none;
+
+}
+.star{
+	margin-left: -15px;
+	text-align: left;
+}
+#cost{
+
+	font-size: 25px;
+
+
+}
+.rating{
+	background-color: dodgerblue;
+	border:none;
+}
+.shareicon, .watchicon{
+	width: 15px;
+	display: inline-block;
+	vertical-align: middle !important;
+	margin-right: 5px;
+	vertical-align: bottom;
+}
+
+
+.sharetext {
+	margin-right: 10px;
+}
+.bottom{
+	font-size: 11px;
+	margin-top: 10px;
+	text-align: center;
+}
+.last{
+	position: relative;
+}

@@ -1,0 +1,111 @@
+@media screen and (min-width: 1200px) {
+    .flight-container {
+        min-width: 850px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .flight-container {
+        min-width: 600px;
+    }
+}
+
+
+.flight-card{
+	border: 1px solid lightgrey;
+	/*width: 59%;*/
+    background-color: #FFF;
+    margin: 0px;
+}
+
+.flight-card:not(last-child) {
+    margin-bottom: 10px;
+}
+
+.flighttitle{
+	     margin-top: 26px;
+    font-size: 20px;
+}
+.airlinename{
+    font-size: 21px;
+}
+.connector{
+	    display: inline-block;
+    border-bottom: 1px solid black;
+    vertical-align: middle;
+    width: 33%;
+    margin: 0px 13px;
+}
+.stop{
+	    margin: 10%;
+}
+.flightdetail{
+    text-align: left;
+}
+
+.flightpicture{
+	    height: 141px;
+    width: 141px;
+    vertical-align: text-top;
+    marign: 18px;
+    margin-top: 8px;
+	vertical-align: text-top;
+    width: 100%;
+}
+#green{
+	color: green;
+}
+#review{}
+
+.flightsecondrow{
+    margin-left: 47px;
+	margin-top: 15px;
+    padding-bottom: 14px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.duration{
+    margin-left: 15%;
+}
+.flightthirdrow{
+
+    padding-bottom: 14px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+
+
+.flightmiddle{
+	    border-right: 1px solid lightgrey;
+	    width: 44%;
+}
+.flighttitlerow{
+	        
+	        font-weight: 700;
+}
+.flightbookdealbutton{
+	    color: rgb(255, 255, 255);
+	    background-color: rgb(255, 105, 15);
+	    /*background-clip: border-box;*/
+        padding: 5px 15px;
+        border: none;
+        position: relative;
+        top: 100%;
+        
+}
+
+#flightcost{
+	 
+    font-size: 25px;
+       /* margin-left: 45px;
+    position: absolute;
+    top: 36px;*/
+    margin-top: 20px;
+}
+
+
+
+

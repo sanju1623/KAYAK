@@ -1,0 +1,123 @@
+
+@media screen and (min-width: 1200px) {
+    .car-container {
+        min-width: 850px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .car-container {
+        min-width: 600px;
+    }
+}
+.car-card{
+	border: 1px solid lightgrey;
+	background-color: #FFF;
+	margin: 0px;
+
+}
+.car-card:not(last-child) {
+    margin-bottom: 10px;
+}
+.cartitle{
+	      text-align: left;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+
+
+.carpicture{
+	      width: 100%;
+
+	height: 100%;
+}
+
+.carsecond{
+
+	margin-top: 8px;
+}
+
+
+.people{
+height: 20px;
+}
+.noofpeople{
+	font-size: 21px;
+    margin-left: 3px;
+    display: inline;
+    vertical-align: bottom;
+}
+.bags{
+	height: 20px;
+	     margin-left: 20%;  
+}
+.noofbags{
+font-size: 21px;
+    margin-left: 3px;
+    display: inline;
+    vertical-align: bottom;
+}
+.doors{
+	height: 20px;
+	    margin-left: 20%;
+}
+.shuttlecity{
+	    vertical-align: text-bottom;
+    margin-left: 3px;
+    font-size: 20px;
+}
+.greatdeal{
+	    background-color: #558FE6;
+    color: white;
+    font-size: 12px;
+    padding: 4px;
+}
+.fourthrow{
+	margin-top: 0px;
+}
+.noofdoors{
+	font-size: 21px;
+    margin-left: 3px;
+    display: inline;
+    vertical-align: bottom;
+}
+.flightscaricon{
+	height: 20px;
+
+}
+.carthirdrow{
+	    margin-top: 18px;
+	        text-align: left;
+}
+
+
+.carmiddle{
+	    border-right: 1px solid lightgrey;
+	    width: 44%;
+}
+
+.carbookdealbutton{
+	    color: rgb(255, 255, 255);
+	    background-color: rgb(255, 105, 15);
+	    /*background-clip: border-box;*/
+	    padding: 5px 15px;
+        border: none;
+            margin-top: 35%;
+        
+}
+.carsecondrow{
+	text-align: left;
+}
+
+#carcost{
+	 
+     font-size: 25px;
+       /* margin-left: 45px;
+    position: absolute;
+    top: 36px;*/
+    margin-top: 20px;
+    
+  
+}
+

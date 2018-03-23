@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+.LandingPage-background{
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /*!* Full height *!*/
+    /*height: 10%;*/
+    /*!* Center and scale the image nicely *!*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    background-image: url('https://a1.r9cdn.net/dimg/phoenix-images/v1/phoenix-flights-bg.jpg');
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.Text-Date-Area{
+    background-color: white !important;
+    width:60% !important;
+    font-weight:900;
+    border: 10px solid #ffffff !important;
+}
+
+.border-left {
+    border-left: 1px solid #E4E5EA;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.hr {
+  height: 1px #E4E5EA !important;
+  border-top: 1px solid #E4E5EA !important;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.Text-Area {
+    width: 20% !important;
+    margin: 60px auto !important;
+    background-color: white !important;
+    border: 10px solid #ffffff !important;
+    font-weight: 900 ;
+  }
+
+  .Text-Field {
+      width: 20% !important;
+      height: 10% !important;
+      margin: 60px auto !important;
+      background-color: white !important;
+      border: 20px solid #ffffff !important;
+      font-weight: 900 ;
+    }
+  .Text-Area-dropdown {
+      width: 15% !important;
+      margin: 60px auto !important;
+      background-color: white !important;
+      border: 10px solid #ffffff !important;
+      font-weight: 100 ;
+    }
+  .popup {
+      border: 1px solid #FF5722 !important;
+    }
+
+  .Tab-area-bg {
+      backgroundColor: #E4E5EA
+    }
+
+    .Admin-userSearch {
+        width: 22% !important;
+        margin: 10px auto !important;
+        background-color: white !important;
+        padding-left: 2px auto !important;
+        font-weight: 400 ;
+      }
+      .Text-bold {
+          font-weight: 900 ;
+        }
+        .Text-big{
+            font-size: large ;
+          }.Text-white{
+              font-color: #ffffff !important ;
+            }
+            .react-grid-layout {
+              position: relative;
+              transition: height 200ms ease;
+            }
+            .react-grid-item {
+              transition: all 200ms ease;
+              transition-property: left, top;
+            }
+            .react-grid-item.cssTransforms {
+              transition-property: transform;
+            }
+            .react-grid-item.resizing {
+              z-index: 1;
+              will-change: width, height;
+            }
+
+            .react-grid-item.react-draggable-dragging {
+              transition: none;
+              z-index: 3;
+              will-change: transform;
+            }
+
+            .react-grid-item.react-grid-placeholder {
+              background: #00BCD4;
+              opacity: 0.2;
+              transition-duration: 100ms;
+              z-index: 2;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              -o-user-select: none;
+              user-select: none;
+            }
+
+            .react-grid-item > .react-resizable-handle {
+              position: absolute;
+              width: 20px;
+              height: 20px;
+              bottom: 0;
+              right: 0;
+              background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pg08IS0tIEdlbmVyYXRvcjogQWRvYmUgRmlyZXdvcmtzIENTNiwgRXhwb3J0IFNWRyBFeHRlbnNpb24gYnkgQWFyb24gQmVhbGwgKGh0dHA6Ly9maXJld29ya3MuYWJlYWxsLmNvbSkgLiBWZXJzaW9uOiAwLjYuMSAgLS0+DTwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DTxzdmcgaWQ9IlVudGl0bGVkLVBhZ2UlMjAxIiB2aWV3Qm94PSIwIDAgNiA2IiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjojZmZmZmZmMDAiIHZlcnNpb249IjEuMSINCXhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiDQl4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjZweCIgaGVpZ2h0PSI2cHgiDT4NCTxnIG9wYWNpdHk9IjAuMzAyIj4NCQk8cGF0aCBkPSJNIDYgNiBMIDAgNiBMIDAgNC4yIEwgNCA0LjIgTCA0LjIgNC4yIEwgNC4yIDAgTCA2IDAgTCA2IDYgTCA2IDYgWiIgZmlsbD0iIzAwMDAwMCIvPg0JPC9nPg08L3N2Zz4=');
+              background-position: bottom right;
+              padding: 0 3px 3px 0;
+              background-repeat: no-repeat;
+              background-origin: content-box;
+              box-sizing: border-box;
+              cursor: se-resize;
+            }
